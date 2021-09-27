@@ -4,10 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css';
 import Navigation from './Navigation';
+import { store, StoreContext } from './app/api/Store/Store';
 ReactDOM.render(
-  <React.StrictMode>
+  <StoreContext.Provider value={store}>
     <Navigation />
-  </React.StrictMode>,
+    </StoreContext.Provider>,
+  
   document.getElementById('root')
 );
 
