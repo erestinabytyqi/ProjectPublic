@@ -1,0 +1,34 @@
+.sizeoftabs{
+height: 1000px;
+}
+.absolute{
+    position: absolute;
+}
+
+.svgproperties{
+    position: fixed;
+    top: 10%;
+    left: 35%;
+    z-index: 1;
+}
+.cardproperties{
+    position: absolute;
+    z-index: 2;
+    display: inline;
+    float: inline-start;
+    margin-left: 5px;
+}
+
+#testthetestin{
+    
+    height: 100px;
+    width: 100%;
+
+}
+#divsborder{
+
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}

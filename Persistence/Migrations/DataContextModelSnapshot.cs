@@ -44,6 +44,41 @@ namespace Persistence.Migrations
 
                     b.ToTable("Activities");
                 });
+
+            modelBuilder.Entity("Domain.HomePageMessages", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("AdminName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LongDescription")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Place")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Remote")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ShortDescription")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Urgent")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("WorkName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("HomepageMessages");
+                });
 #pragma warning restore 612, 618
         }
     }

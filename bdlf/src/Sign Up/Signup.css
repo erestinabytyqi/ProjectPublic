@@ -1,0 +1,21 @@
+#formgroupsignup{
+ 
+    z-index: 3;
+       height: 500px;
+       width:45%;
+       position: fixed;
+   top: 15%;
+   left: 50%;
+   
+   }
+   
+   #positionofthesvbgbackground{
+   position: fixed;
+   z-index: 2;
+   }
+   
+   #titile{
+       border-left: 1px solid black;
+       height: 150px;
+       width: 100%;
+   }

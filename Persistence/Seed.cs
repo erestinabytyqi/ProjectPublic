@@ -51,6 +51,22 @@ namespace Persistence
             };
             await  context.Activities.AddRangeAsync(activities);
             await context.SaveChangesAsync();//saves data
+             if(context.HomepageMessages.Any()) return;
+                var homepagemessages = new List<HomePageMessages>{
+                    new HomePageMessages
+                    {
+                        WorkName="Create a Syllabus WebDesign",
+                        AdminName="Erestina Bytyqi",
+                        Date= DateTime.Now.AddMonths(1),
+                        ShortDescription="This job includes designing of a website as well as maintaining it for 6 months",
+                        LongDescription="Job includes knowledge of reactjs , css, nodejs,.netcore,backend more however we need you to be able to do things on your own . The project is very important when it comes to this side. it has to do lots and lots of work.The more work the merrier, please introduce us to your very best self. Moreover about the job . The job includes the raw coding and the debuggin on your side . moreover it includes the frontend design as well as the problems that might ocurr into the react front end developing course.",
+                        Place="Kosovo",
+                        Remote="Yes,Its Remote",
+                        Urgent="Urgent"
+                    },
+                };
+                await context.HomepageMessages.AddRangeAsync(homepagemessages);
+                await context.SaveChangesAsync();
         }
 
     }

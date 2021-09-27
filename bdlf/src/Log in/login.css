@@ -1,0 +1,49 @@
+#formposition{
+
+    height:300px;
+    width:20%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 13%;
+    margin-left: 70%;
+    position: fixed;
+}
+#titlestyle{
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+}
+#subtitlestyle{
+    
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    margin-left: 6px;
+}
+#styleforsubsubtitle{
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flexbox;
+}
+#marginofform{
+    margin-top: 20px;
+}
+#divside{
+    border-left: 1px solid black;
+    height:100px;
+    width: 100%;
+}
+#svgposition{
+    position: absolute;
+    left: 10%;
+    top: 4%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#positionabsolute{
+    position: absolute;
+    left:90%;
+    top: 2%;    
+}

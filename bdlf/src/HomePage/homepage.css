@@ -1,0 +1,123 @@
+#sizeofcontainer{
+    height: 500px;
+    border: 1px solid red;
+    overflow:hidden;
+    display: block;
+}
+#imagesize{
+   position:sticky;
+}
+
+#divtwo{
+    border: 1px solid black;
+    height: 1000px;
+    width: 100%;
+    display: block;
+}
+
+#divkryesor{
+    /* border: 1px solid black; */
+    background-color:#584141 ;
+    height:400px;
+    width: 100%;
+}
+
+#imagepositiondiv1{
+    position:absolute;
+    z-index: 43;
+    top: 15%;
+    left: 84%;
+}
+#smallerplugin{
+    position:absolute;
+    z-index: 43;
+    top: 24%;
+    left: 75%; 
+}
+
+#leftplugin{
+    position:absolute;
+    z-index: 43;
+    top: 15%;
+    left: 2%;
+}
+#divimbeshtjelles{
+    /* border: 1px solid black; */
+    height: 340px;
+    width: 100%;
+    z-index: 30;
+    position: relative;
+    background-color: white;
+}
+#dividyte{
+    /* border: 1px solid black; */
+height: 1000px;
+width: 100%;
+}
+#divianessemajt{
+    /* border: 1px solid black; */
+    height: 1000px;
+    width: 30%;
+    display: inline-flex;
+}
+#divianessedjatht{
+    /* border: 1px solid black; */
+    height: 1000px;
+    width: 70%;
+    display: inline-flex;
+    float: left;
+    margin-left: 2px;
+    display: block;
+}
+#ulll{
+    display: inline;
+    position: absolute;
+    top: 68%;
+    left: 33%;
+}
+#time{
+    flex-flow:wrap; 
+
+}
+
+#itmen{
+    width: 60%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-top: 10%;
+    float:left;
+    position: relative;
+    top: 26%;
+    display: block;
+    left: 39%;
+    flex-flow: column;
+    z-index: 1;
+}
+#spacebetweendiv{
+    /* border-right: 1px solid black; */
+    width: 40%;
+    display: block;
+    margin-bottom:5%;
+    margin-left: 5%;
+}
+
+#desisive{
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left:5% ;
+    padding-right:5% ;
+    padding-bottom: 1%;
+}
+#designfor{
+    margin-left: 5%;
+}
+
+#margin-5{
+    margin-left: 5%;
+}
+
+#fixed{
+    position: fixed;
+    margin-right: 10%;
+    width: 36%;
+}

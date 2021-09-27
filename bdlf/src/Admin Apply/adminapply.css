@@ -1,0 +1,21 @@
+#sizepfform{
+
+    height: 500px;
+    width: 50%;
+    opacity: 0.4px;
+    left: 51%;
+    float: right;
+    margin-top: 7%;
+    padding-right:5%;
+    position: fixed;
+}
+
+#formstyleupmargin{
+    margin-top: 5%;
+
+}
+
+#positionoffsvg{
+    position: absolute;
+    z-index: -1;
+}

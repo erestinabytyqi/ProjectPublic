@@ -10,5 +10,6 @@ namespace Persistence
         }
 
         public DbSet<Activity> Activities { get; set; }
+          public DbSet<HomePageMessages> HomepageMessages { get; set; }
     }
 }
