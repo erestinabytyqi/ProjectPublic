@@ -34,7 +34,7 @@ import HomepageDashboard from "./HomepageDashboard";
 
     return(
      <div>
-        {/* <NavBarB/>  */}
+        <NavBarB/> 
         <Container style={{marginTop:'5%'}}>
         <HomepageDashboard Homepagemessages={homepagemessages}
         selectedHomepagemessages={selectedHomepagemessages}

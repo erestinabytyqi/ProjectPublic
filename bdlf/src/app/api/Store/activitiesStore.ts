@@ -11,7 +11,7 @@ export default class ActivityStore{
    selectedActivity : Activity| undefined =undefined;
     editMode=false;
     loading=false;
-    loadingInitial=true;
+    loadingInitial=false;
 
 
 
@@ -20,13 +20,12 @@ export default class ActivityStore{
     }
 
     get activitiesByDate(){
-        return Array.from(this.activityRegistry.values()).sort((a,b)=>
-        Date.parse(a.date)-Date.parse(b.date));
+        return Array.from(this.activityRegistry.values()).sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
     }
 
 
     loadActivities=async ()=>{
-      
+       this.setLoadingInitial(true);
         try{
         const activities = await agent.Activities.list();
             activities.forEach(activity=>{

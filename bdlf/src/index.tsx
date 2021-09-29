@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css';
+import 'react-toastify/dist/ReactToastify.min.css';
 import Navigation from './Navigation';
 import { store, StoreContext } from './app/api/Store/Store';
 ReactDOM.render(

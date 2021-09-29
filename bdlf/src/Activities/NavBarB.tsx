@@ -15,7 +15,7 @@ export default function NavBarB(){
             <Menu.Item header>
               BDLF 
             </Menu.Item>
-    <Link to="/homepage">    <Menu.Item name='HomePage'>
+    <Link to="/">    <Menu.Item name='HomePage'>
 
             </Menu.Item></Link>
      <Link to="/profile">       <Menu.Item name='Profile'>

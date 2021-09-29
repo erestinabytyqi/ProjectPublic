@@ -271,7 +271,7 @@ export default function AdminDashboardFile(this: any) {
 
     return (
         <div>
-            {/* <NavBarB openForm={handleFormOpen}/> */}
+            <NavBarB />
             <div id="testthetestin">
 
             </div>
